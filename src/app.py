@@ -5,19 +5,19 @@ a=2
 b=3
 @app.route("/")
 def index():
-    return a+b 
+    return str(a+b) 
 @app.route("/sub")
 def sub():
-    return a-b
+    return str(a-b)
 @app.route("/mul")
 def mul():
-    return a*b
+    return str(a*b)
 @app.route("/power")
 def power():
-    return a**b
+    return str(a**b)
 @app.route("/exp")
 def exp():
-    return a*b+a**b
+    return str(a*b+a**b)
 
 #"Hello, world!"
 
