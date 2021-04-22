@@ -5,7 +5,7 @@ from app import power
 from app import exp
 
 def test_index():
-    assert index() == '5'
+    assert index() == '"the sum of",str(2),"and",str(3),"is",str(5)'
 def test_sub():
     assert sub() == '-1'
 def test_mul():
